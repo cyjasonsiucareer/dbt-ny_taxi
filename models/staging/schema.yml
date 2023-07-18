@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: flowing-vision-391204
+    schema: trips_data_all
+
+    tables:
+      - name: green_trips_all
+      - name: yellow_trips_all
